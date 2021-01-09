@@ -6,7 +6,7 @@ bgimg = loadAnimation("garden.png");
 jerryimg1 = loadAnimation("jerryOne.png");
 jerryimg2 = loadAnimation("jerryTwo.png");
 jerryimg3 = loadAnimation("jerryThree.png");
-jerryimg4 = loadAnimation("jerryFour.png");
+jerryImg4 = loadAnimation("jerryFour.png");
 tomimg1 = loadAnimation("tomOne.png");
 tomimg2 = loadAnimation("tomTwo.png");
 tomimg3 = loadAnimation("tomThree.png");
@@ -56,7 +56,7 @@ function keyPressed(){
       tom.addAnimation("catrun",tomimg2);
       tom.changeAnimation("catrun");
       
-      jerry.addAnimation("jerrydetective",jerryimg4);
+      jerry.addAnimation("jerrydetective",jerryImg4);
       jerry.changeAnimation("jerrydetective");
       
       
