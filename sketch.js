@@ -56,6 +56,10 @@ function keyPressed(){
       tom.addAnimation("catrun",tomimg2);
       tom.changeAnimation("catrun");
       
+      jerry.addAnimation("jerrydetective",jerryimg4);
+      jerry.changeAnimation("jerrydetective");
+      
+      
   }
 
 }
